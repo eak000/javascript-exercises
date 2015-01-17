@@ -1,0 +1,35 @@
+<!doctype HTML>
+<html>
+  <head>
+    <title>Magic 8 ball</title>
+  </head>
+  <body>
+    <form>
+      <p>Ask the Magic 8 Ball a question</p>
+      <button type="submit">ASK NOW</button>
+    </form>
+    <p id = "answerSpot"></p>
+
+
+    <script>
+      var question = function() {
+        prompt("What do you want to ask?");
+      };
+
+      var phrases = [
+      "Not bloody likely",
+      "too soon to tell",
+      "In your dreams",
+      "Hell no",
+      "Awww yissss",
+      "most definitely"
+      ];
+
+
+      var randomPhrase = phrases[Math.floor(Math.random()* 6)];
+      var node = document.createTextNode(randomPhrase);
+      document.getElementById("answerSpot").appendChild(node);
+    </script>
+  </body>
+
+</html>
