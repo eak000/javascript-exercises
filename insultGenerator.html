@@ -6,15 +6,15 @@
 </head>
 <body>
   <form>
-      <p>This is how I feel</p>
+      <p>Random Insult Generator</p>
       <p><i>Caution: juvenile humor ahead</i></p>
-      <button type="submit">TELL ME</button>
+      <button type="submit">TRY ME</button>
     </form>
     <p id = "insultSpot"></p>
   <script type="text/javascript">
-    var randomBodyParts = ["hair", "nose", "breath", "ear", "butt", "feet", "armpit", "face"];
-    var randomAdjectives = ["stinky", "sweaty", "rancid", "ratty", "rotten", "putrid", "moist", "moldy", "day-old","mushy", "murky"];
-    var randomWords = ["cat", "bologna", "cheeseburger", "cheese", "orangutan", "rat", "peas", "sneakers", "mold", "toenails", "dirt", "pumpkin", "farts", "baby pig", "onions", "poop", "dog"];
+    var randomBodyParts = ["hair", "nose", "breath", "ear", "butt", "feet", "armpit", "face", "fingers", "sweat", "neck"];
+    var randomAdjectives = ["stinky", "sweaty", "rancid", "ratty", "rotten", "putrid", "moist", "moldy", "day-old","mushy", "musty", "poopy", "ancient", "pee-soaked"];
+    var randomWords = ["cat", "bologna", "cheeseburger", "cheese", "orangutan", "rat", "peas", "sneakers", "mold", "toenails", "dirt", "pumpkin", "farts", "baby pig", "onions", "poop", "dog", "sweatpants", "underwear", "diapers", "socks"];
 
     // picks a random word from lists above
     var bodyPart = randomBodyParts[Math.floor(Math.random() * randomBodyParts.length)];
@@ -24,7 +24,6 @@
     var insult = "Your " + bodyPart + " smells like " + adjective + " " + word + ".";
     var node = document.createTextNode(insult);
     document.getElementById("insultSpot").appendChild(node);
-    console.log(insult);
   </script>
 </body>
 </html>
