@@ -53,7 +53,7 @@ body {
 }
 
 article {
-  width: 100%;
+  width: 85%;
   margin: 5em auto;
   text-align: center;
 }
@@ -61,6 +61,7 @@ article {
 #insultBtn {
   font-family: 'elliotsixregular', Arial, sans-serif;
   border:none;
+  outline: none;
   background-color: white;
   color: red;
   font-size: 1.5em;

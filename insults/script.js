@@ -1,3 +1,5 @@
+var button = document.getElementById("insultBtn");
+button.onclick = getInsult;
 
 function getInsult() {
   var randomBodyParts = ["hair", "nose", "breath", "ear", "butt", "feet", "armpit", "face", "finger", "sweat", "neck", "bellybutton", "sock"];
@@ -10,14 +12,13 @@ function getInsult() {
   var word = randomWords[Math.floor(Math.random() * randomWords.length)];
 
   var insult = "Your " + bodyPart + " smells like " + adjective + " " + word + ".";
-  var node = document.createTextNode(insult);
+  // var node = document.createTextNode(insult);
 
 
-  document.getElementById("insultSpot").appendChild(node);
+  document.getElementById("insultSpot").innerHTML = insult;
 
 };
-var button = document.getElementById("insultBtn");
-button.addEventListener("click", getInsult());
+
 
    
 
