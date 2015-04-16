@@ -1,0 +1,1 @@
+These javascript exercises are based on the exercies from Javascript for Kids by Nick Morgan. This has been a fun book to go through with my 9 year old daughter. I recommend it! The learning is solid, but the projects are appealing to kids and others who still find juvenile humor hilarious. 
