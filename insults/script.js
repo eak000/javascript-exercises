@@ -3,7 +3,7 @@ button.onclick = getInsult;
 
 function getInsult() {
   var randomBodyParts = ["hair", "nose", "breath", "ear", "butt", "feet", "armpit", "face", "finger", "sweat", "neck", "bellybutton", "sock"];
-  var randomAdjectives = ["stinky", "sweaty", "rancid", "ratty", "rotten", "putrid", "moist", "moldy", "day-old","mushy", "musty", "poopy", "ancient", "pee-soaked"];
+  var randomAdjectives = ["stinky", "sweaty", "rancid", "ratty", "rotten", "putrid", "moist", "moldy", "day-old","mushy", "musty", "poopy", "ancient"];
   var randomWords = ["cat", "bologna", "cheeseburger", "cheese", "orangutan", "rat", "peas", "sneakers", "mold", "toenails", "dirt", "pumpkin", "farts", "baby pig", "onions", "poop", "dog", "sweatpants", "underwear", "diapers", "socks", "mushrooms"];
 
   // picks a random word from lists above

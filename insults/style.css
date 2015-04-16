@@ -73,3 +73,13 @@ article {
 h1 {
   font-size: 2em;
 }
+
+footer {
+  text-align: center;
+  margin-top: 13em;
+  font-size: .75em;
+}
+
+span {
+  vertical-align: super;
+}
